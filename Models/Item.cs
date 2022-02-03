@@ -1,7 +1,10 @@
-﻿namespace WebApplication1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebApplication1.Models
 {
 	public class Item
 	{
+		[Key]
 		public Guid Id { get; set; }
 		public string Name { get; set; }
 		public string Content { get; set; }
