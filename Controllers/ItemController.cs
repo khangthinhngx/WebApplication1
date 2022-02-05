@@ -1,6 +1,6 @@
 ﻿namespace WebApplication1.Controllers
 {
-	[Route("/")]
+	[Route("api/items")]
 	[ApiController]
 	public class ItemController : ControllerBase
 	{
